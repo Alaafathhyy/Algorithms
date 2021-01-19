@@ -35,6 +35,6 @@ int main() {
         cin >> names[i] >> price[i] >> prof[i];
 
     cout << solve(0, cost) << endl;
-
+    path(0,cost);
 
 }
